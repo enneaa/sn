@@ -1,16 +1,10 @@
 ---
-类型:
-  - "[[文章|文章]]"
 date: 2024-05-30
-主题:
-  - "[[Obsidian|Obsidian]]"
 链接:
   - https://forum-zh.obsidian.md/t/topic/35076
-情景:
-  - "[[2024-05-30|2024-05-30]]"
 publish: true
 ---
-  
+[[2024-05-30|2024-05-30]] [[./发布|发布]] [[../pages/Obsidian|Obsidian]]    
 笔记在记录之后，还需要不断回顾。  
   
 在 Obsidian 中随机回顾有这么几种方式，可以帮助我们重新遇见曾经写下的笔记。  
@@ -51,7 +45,19 @@ Backside of multiline card
 下面这段查询代码是从有指定标签的无序列表中，随机抽取呈现，具体是否完成随机，我还不太确定。  
   
 ```  
-  
+```dataview  
+List L.text  
+FROM #书籍  
+FLATTEN file.lists AS L  
+FLATTEN date(now) as Now  
+FLATTEN (file.mtime.year + file.mtime.hour + file.mtime.day +   
+	     file.mtime.hour + file.mtime.minute + file.mtime.second +   
+	     file.size + Now.hour + Now.minute + Now.second) * 15485863 / (L.line + 1)   
+	     as Hash  
+FLATTEN ((Hash * Hash * Hash) % 2038074743) / 2038074743 as Rand  
+SORT Rand  
+LIMIT 5  
+```  
   
 查询笔记再随机呈现应该也是可以的，大家可以探索一下。  
   
@@ -59,4 +65,4 @@ Backside of multiline card
   
 我还是很喜欢随机和间隔复习这种功能。不管笔记库中有多少笔记，也不需要管这些笔记是否整理得井井有条。只需要点击一下按钮，就可以与做过得笔记不期而遇，重新激发思考。间隔复习则是把需要掌握得内容在时间维度上平铺，也不是一下就全部都要掌握，在复习的过程中，按照遗忘曲线安排好再次出现的时间，而这些都不用我们操心，我们需要做的就仅仅是点击按钮，点一下弹出卡片，根据卡片内容加深记忆、增添笔记，点击掌握程度后滑到下一张卡片。  
   
-如此，记录内容之后也不用把庞大的笔记库作为一个负担，因为我们知道，笔记内容会在某一个时刻再次与我们相见。
+如此，记录内容之后也不用把庞大的笔记库作为一个负担，因为我们知道，笔记内容会在某一个时刻再次与我们相见。  

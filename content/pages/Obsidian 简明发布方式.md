@@ -3,7 +3,7 @@ date: 2023-11-23
 permalink: "20250316210735"
 publish: true
 ---
-[[文章|文章]]  
+[[../发布/发布|发布]]  
 ##### 前言  
 使用 Obsidian 写好笔记后，有的时候想把自己的笔记分享给朋友，有的时候想把笔记发布到网络上，作为个人博客或者数字花园。而 Obsidian 是基于本地存储的 markdown 笔记，这就意味着无法直接生成网页链接发给朋友，要么使用 Obsidian 的官方发布服务，要么通过部署个人网站将 markdown 文件生成网页进行发布。现有介绍较多的一些发布方案已经足够简单，但是往往需要电脑端，需要 git，需要简单的代码等等，门槛还是略高。因此本文介绍一种更为简单可用的 Obsidian 发布方式。  
 ##### 概述  
@@ -38,7 +38,7 @@ publish: true
 好啦现在就可以发布笔记到你的网站上啦。    
 打开笔记页面，搜索并打开命令 "Digital Garden: Quick Publish And Share Note"，笔记就发布好啦，并且自动将页面链接复制到剪贴板上，过一会在浏览器打开链接就可以看到发布好的页面🚀。    
 ![[../assets/Screenshot_2023-05-12-17-48-01-209_md.obsidian-edit.jpg|Screenshot_2023-05-12-17-48-01-209_md.obsidian-edit.jpg]] ![[../assets/IMG_20230512_175117.jpg|IMG_20230512_175117.jpg]]    
-这一篇教程就通过 "Digital Garden" 发布成功了，可以点击查看 [Obsidian 简明发布方式]( <https://enneaa.netlify.app/📜页面/Obsidian> 简明发布方式/)  
+这一篇教程就通过 "Digital Garden" 发布成功了，可以点击查看 [Obsidian 简明发布方式]( <<https://enneaa.netlify.app/>📜页面/Obsidian> 简明发布方式/)  
 ##### 坑在哪里  
 其实这个插件的使用非常简单，插件开发者也提供了 [使用说明](https://dg-docs.ole.dev/getting-started/01-getting-started/)，大家可以探索更多具体的用法。    
 但是对于国内的中文使用者，有两个地方稍不注意就会导致发布不成功。    
