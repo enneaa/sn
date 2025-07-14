@@ -4,7 +4,7 @@ publish: true
 ---
 @ [[./Obsidian|Obsidian]] @ [[Logseq|Logseq]] [[笔记应用的选择|笔记应用的选择]]  
   
-- [[./Obsidian|Obsidian]] 是一个基于 [[Markdown|Markdown]] 的操作系统。在功能实现上，可以认为 Logseq 是 Obsidian 的一个插件。  
+- [[./Obsidian|Obsidian]] 是一个基于 [[./Markdown|Markdown]] 的操作系统。在功能实现上，可以认为 Logseq 是 Obsidian 的一个插件。  
 - Obsidian 是大海，Logseq 是江河。  
 - 一个是列表项为基本单元，一个页面为基本单元。  
 - [[大纲笔记|大纲笔记]] 适合灵活组织列表项之间的从属关系，文档笔记则需要用各级标题来切分。  
