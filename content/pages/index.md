@@ -3,7 +3,6 @@ date: 2025-03-13
 标题: 欢迎来逛 👋
 comments: false
 enableToc: false
-updated: 2025-03-16
 permalink: "123456"
 publish: true
 aliases:
@@ -24,18 +23,16 @@ aliases:
 ---  
   
 ### 索引 🗺  
-- [[./发布|发布]] 可以看到我的推文。  
+- 发布可以看到我的推文。  
 - 闪念是我一些零碎想法。  
 - 摘抄 是我摘抄的一些片段。  
 - 存放了我读过的文章和标注。  
 - 推荐喜欢的博客，播客，书籍、电影。  
-- [[./Readme|关于]] 我，我知道的也并不多。   
+- 关于我，我知道的也并不多。   
 - 更多没有分类的内容大多是我写下的笔记。  
   
 ---  
-  
 ### 主题 👀  
-  
 > 我关注的一些主题  
   
 - [[./信息管理|信息管理]]    
@@ -57,7 +54,6 @@ aliases:
 - 社会组织  
   
 ---  
-  
 ### 哪里可以找到我 🌊  
 - 尝试公开发布内容，通过表达促进思考，与大家交流。  
 - 👉 通过 [RSS](https://enneaaa.netlify.app/feed.xml) 订阅站点内容。  
@@ -65,3 +61,27 @@ aliases:
 - [即刻](https://web.okjike.com/u/89e74f34-dd80-4c6c-9853-240e159693b3) 可以通过即刻来与我交流，目前即刻是我用的最多的社交平台。  
 - [知乎](https://www.zhihu.com/people/snbo) 少有的长文本内容交流平台。  
 - [微博](https://weibo.com/u/3836602564) 中文活得最久的社交平台。  
+  
+---  
+### 关于  
+> 我是谁，这是一个问题。  
+- 95 年生  
+- 江右人士  
+- 信息掠食者  
+- 努力成为创造者  
+	- 相信美好并让美好的事情发生。  
+  
+  
+---  
+```base  
+views:  
+  - type: table  
+    name: 表格  
+    filters:  
+      and:  
+        - publish == true  
+    sort:  
+      - property: date  
+        direction: DESC  
+  
+```
