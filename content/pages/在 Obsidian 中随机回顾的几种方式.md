@@ -3,8 +3,6 @@ date: 2024-05-30
 链接:
   - https://forum-zh.obsidian.md/t/topic/35076
 publish: true
-状态:
-  - "[[发布|发布]]"
 ---
 2024-05-30   
 [[./Obsidian|Obsidian]]    
