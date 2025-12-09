@@ -38,7 +38,7 @@ export const defaultContentPageLayout: PageLayout = {   
         { Component: Component.ReaderMode() },
       ],
     }),
-    // Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer()),
     Component.DesktopOnly(Component.RecentNotes({
       title: "最近更新",
       showTags: false,
@@ -99,7 +99,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    // Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer()),
     Component.DesktopOnly(Component.RecentNotes({
       title: "最近更新",
       showTags: false,
