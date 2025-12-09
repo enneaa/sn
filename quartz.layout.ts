@@ -38,7 +38,7 @@ export const defaultContentPageLayout: PageLayout = {   
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.DesktopOnly(Component.Explorer()),
+    // Component.DesktopOnly(Component.Explorer()),
     Component.DesktopOnly(Component.RecentNotes({
       title: "最近更新",
       showTags: false,
@@ -71,7 +71,7 @@ export const defaultContentPageLayout: PageLayout = {   
         inputPosition: "bottom",
       }
     }),
-    Component.MobileOnly(Component.Explorer()),
+    // Component.MobileOnly(Component.Explorer()),
     Component.MobileOnly(Component.RecentNotes({ 
       title: "最近更新",
       showTags: false,
@@ -99,7 +99,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.DesktopOnly(Component.Explorer()),
+    // Component.DesktopOnly(Component.Explorer()),
     Component.DesktopOnly(Component.RecentNotes({
       title: "最近更新",
       showTags: false,
@@ -110,7 +110,7 @@ export const defaultListPageLayout: PageLayout = {
   right: [],
   afterBody: [
     Component.Backlinks(), 
-    Component.MobileOnly(Component.Explorer()),
+    // Component.MobileOnly(Component.Explorer()),
     Component.MobileOnly(Component.RecentNotes({
       title: "最近更新",
       showTags: false,
