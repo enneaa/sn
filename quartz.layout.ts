@@ -84,7 +84,7 @@ export const defaultContentPageLayout: PageLayout = {   
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
-    // Component.Breadcrumbs(), 
+    Component.Breadcrumbs(), 
     Component.ArticleTitle(), 
     Component.ContentMeta()],
   left: [
@@ -99,22 +99,23 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
+    Component.DesktopOnly(Component.Explorer()),
     Component.DesktopOnly(Component.RecentNotes({
       title: "最近更新",
       showTags: false,
       limit: 5,
-      linkToMore: "pages",
+      linkToMore: "页面",
     })),
-    // Component.Explorer(),
   ],
   right: [],
   afterBody: [
     Component.Backlinks(), 
+    Component.MobileOnly(Component.Explorer()),
     Component.MobileOnly(Component.RecentNotes({
       title: "最近更新",
       showTags: false,
       limit: 5,
-      linkToMore: "pages",
+      linkToMore: "页面",
     })),
   ],
 }
