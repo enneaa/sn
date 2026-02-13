@@ -73,16 +73,3 @@ path: content/
 	- 相信美好并让美好的事情发生。
 
 
----
-```base
-views:
-  - type: list
-    name: 表格
-    filters:
-      and:
-        - publish == true
-    sort:
-      - property: date
-        direction: DESC
-
-```
