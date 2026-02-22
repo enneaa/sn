@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🌲是話說 Bolog",  
+    pageTitle: "是話說 Bolog",  
     pageTitleSuffix: " | 是話說 Bolog",  
     enableSPA: true,
     enablePopovers: true,
@@ -66,7 +66,11 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.ObsidianFlavoredMarkdown({ 
+        enableInHtmlEmbed: true,
+        enableCheckbox: true,
+        disableBrokenWikilinks: true,
+      }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ 
