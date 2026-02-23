@@ -2,7 +2,7 @@
 aliases:
   - 黑曜石
 date: 2023-11-26
-publish: true
+share: true
 ---
 [[应用|应用]]  [[双链笔记|双链笔记]]  
 - Obsidian 插件  
