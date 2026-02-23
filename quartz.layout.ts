@@ -43,7 +43,7 @@ export const defaultContentPageLayout: PageLayout = {   
       title: "最近更新",
       showTags: false,
       limit: 5,
-      linkToMore: "页面",
+      linkToMore: "pages",
     })),
   ],
   right: [
@@ -76,7 +76,7 @@ export const defaultContentPageLayout: PageLayout = {   
       title: "最近更新",
       showTags: false,
       limit: 5,
-      linkToMore: "页面",
+      linkToMore: "pages",
     })),
   ],
 }
@@ -104,7 +104,7 @@ export const defaultListPageLayout: PageLayout = {
       title: "最近更新",
       showTags: false,
       limit: 5,
-      linkToMore: "页面",
+      linkToMore: "pages",
     })),
   ],
   right: [],
@@ -115,7 +115,7 @@ export const defaultListPageLayout: PageLayout = {
       title: "最近更新",
       showTags: false,
       limit: 5,
-      linkToMore: "页面",
+      linkToMore: "pages",
     })),
   ],
 }
