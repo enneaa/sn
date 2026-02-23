@@ -2,15 +2,15 @@
 date: 2025-03-13
 comments: true
 enableToc: false
-publish: true
+share: true
 作者:
   - 沈博
 path: content/
-title: index
+title: 欢迎来逛
 ---
   
 博 @ennea    
-大家好👋，欢迎来到我的 [[./pages/数字花园|数字花园]]🌱。    
+大家好👋，欢迎来到我的 [[数字花园|数字花园]]🌱。    
   
 持续不断记录，意义自然浮现 🎉。    
 让知识的葡萄🍇肆意生长。  
@@ -33,11 +33,11 @@ title: index
 ---  
   
 ### 关注  
-- [[./pages/信息管理|信息管理]]    
+- [[信息管理|信息管理]]    
 	- 关注信息输入、思考、输出。  
 - 工具  
-	- [[./pages/Obsidian|Obsidian]]    
-- [[./pages/博客|博客]]    
+	- [[Obsidian|Obsidian]]    
+- [[博客|博客]]    
 - 技能  
 	- [[编程|编程]]  
 - 自由  
