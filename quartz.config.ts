@@ -69,12 +69,12 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ 
         enableInHtmlEmbed: false,
         enableCheckbox: true,
-        disableBrokenWikilinks: true,
+        disableBrokenWikilinks: false,
       }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ 
-        markdownLinkResolution: "shortest",  
+        markdownLinkResolution: "relative",  
         lazyLoad: true, 
         openLinksInNewTab: true, 
         prettyLinks: true, 
