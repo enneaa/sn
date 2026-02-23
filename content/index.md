@@ -1,7 +1,7 @@
 ---
 date: 2025-03-13
 title: 欢迎来逛 👋
-comments: false
+comments: true
 enableToc: false
 permalink: "123456"
 publish: true
