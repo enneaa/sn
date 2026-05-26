@@ -3,7 +3,7 @@ date: 2025-03-13
 comments: true
 enableToc: false
 share: true
-作者:
+author:
   - 沈博
 path: content/
 title: 欢迎来逛
