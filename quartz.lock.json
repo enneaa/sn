@@ -37,6 +37,12 @@
       "commit": "2e6d05ce087cf9b6de4dc9fa72590a3047170daa",
       "installedAt": "2026-05-27T00:28:24.239Z"
     },
+    "obsidian-plugin-excalidraw": {
+      "source": "github:quartz-community/obsidian-plugin-excalidraw",
+      "resolved": "https://github.com/quartz-community/obsidian-plugin-excalidraw.git",
+      "commit": "main",
+      "installedAt": "2026-05-27T09:24:00.000Z"
+    },
     "citations": {
       "source": "github:quartz-community/citations",
       "resolved": "https://github.com/quartz-community/citations.git",

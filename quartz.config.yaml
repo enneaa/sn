@@ -131,6 +131,8 @@ plugins:
     enabled: true
   - source: github:quartz-community/canvas-page
     enabled: true
+  - source: github:quartz-community/obsidian-plugin-excalidraw
+    enabled: true
   - source: github:quartz-community/content-page
     enabled: true
   - source: github:quartz-community/folder-page
@@ -221,7 +223,7 @@ plugins:
       links:
         GitHub: https://github.com/enneaa/sn
         RSS: https://enneaa.pages.dev/feed.xml
-        "Scroll to top ↑": "#"
+        Scroll to top ↑: "#"
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
