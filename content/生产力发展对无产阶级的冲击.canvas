@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"9bfdd6406462a6b2","type":"file","file":"页面/关键在于要掌握生产力.md","x":-320,"y":400,"width":540,"height":400,"color":"1"},
+		{"id":"159a718760a22f7a","type":"file","file":"页面/工业革命的发生使得机器剥夺了大部分的工作机会，同时创造了一部分新的就业机会.md","x":-1380,"y":-600,"width":400,"height":400},
+		{"id":"3d62cabbfbadb463","type":"file","file":"页面/新的生产力会淘汰依附于老旧生产力的工人.md","x":-360,"y":-346,"width":540,"height":195,"color":"2"},
+		{"id":"db7aa66d0c80b148","type":"file","file":"页面/大多数人的生存依附于工作.md","x":460,"y":-320,"width":400,"height":200,"color":"3"},
+		{"id":"be5447bccbe99c10","type":"file","file":"页面/无产阶级的生存方式就是为拥有生产资料的群体打工.md","x":480,"y":-794,"width":500,"height":220},
+		{"id":"41bf41ffac34a03d","type":"text","text":"会给大多数人的生存带来冲击","x":220,"y":120,"width":314,"height":60,"color":"1"},
+		{"id":"1db5f7cf2b1513cb","type":"file","file":"页面/工业革命并未让人脱离劳动带来的疲劳.md","x":-1380,"y":-80,"width":400,"height":400},
+		{"id":"50c7eada54292a80","type":"text","text":"工业革命以人类轻松的工作代替传统的复杂的手工。","x":-1800,"y":-200,"width":350,"height":75},
+		{"id":"a19833665e76b07c","type":"file","file":"页面/2035年我国将基本实现社会主义现代化.md","x":-290,"y":-1020,"width":400,"height":400,"color":"5"},
+		{"id":"d6fa31efc4b6d789","type":"text","text":"新质生产力可以让人脱离劳动带来的疲劳","x":-890,"y":-20,"width":250,"height":60,"color":"3"},
+		{"id":"8a403dc1e7037a17","type":"file","file":"页面/无产阶级本身并不握有生产资料.md","x":1060,"y":-700,"width":483,"height":174},
+		{"id":"65b0ffd10b1bf2b7","type":"text","text":"之前我们还只是批评资本家剥削，但最起码资本家还发放工资，工人阶级受剥削还有点价值，一旦生产力进步的标志事件到来，产业升级、转型所带来的失业潮，是会让人感慨想被剥削而不能。   \n人工智能的一大功能恰恰是对程序员的代替。","x":-890,"y":-660,"width":305,"height":231},
+		{"id":"308ababf79347f23","type":"text","text":"新质生产力往往可以直接用新技术替代岗位。","x":-862,"y":-376,"width":250,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"74e3f9d45471fe00","fromNode":"8a403dc1e7037a17","fromSide":"left","toNode":"be5447bccbe99c10","toSide":"right"},
+		{"id":"1763c53168ad6789","fromNode":"3d62cabbfbadb463","fromSide":"bottom","toNode":"9bfdd6406462a6b2","toSide":"top"},
+		{"id":"dff7fcc53fead994","fromNode":"be5447bccbe99c10","fromSide":"bottom","toNode":"db7aa66d0c80b148","toSide":"top"},
+		{"id":"1d83d2700b609719","fromNode":"8a403dc1e7037a17","fromSide":"bottom","toNode":"db7aa66d0c80b148","toSide":"top"},
+		{"id":"acc544146481ea34","fromNode":"3d62cabbfbadb463","fromSide":"bottom","toNode":"41bf41ffac34a03d","toSide":"top"},
+		{"id":"e8e3c7a55bfeb6a1","fromNode":"db7aa66d0c80b148","fromSide":"bottom","toNode":"41bf41ffac34a03d","toSide":"top"},
+		{"id":"caee6fcd3e8bc8a1","fromNode":"159a718760a22f7a","fromSide":"right","toNode":"308ababf79347f23","toSide":"left"},
+		{"id":"4a9a76312ead4f0a","fromNode":"50c7eada54292a80","fromSide":"top","toNode":"159a718760a22f7a","toSide":"left"},
+		{"id":"301ec82aa6827c9d","fromNode":"50c7eada54292a80","fromSide":"bottom","toNode":"1db5f7cf2b1513cb","toSide":"left"},
+		{"id":"554f60d2709170b1","fromNode":"1db5f7cf2b1513cb","fromSide":"right","toNode":"d6fa31efc4b6d789","toSide":"left"},
+		{"id":"c5c786c0be96dad4","fromNode":"d6fa31efc4b6d789","fromSide":"right","toNode":"3d62cabbfbadb463","toSide":"left"},
+		{"id":"8efdccc38dfd9ec3","fromNode":"308ababf79347f23","fromSide":"right","toNode":"3d62cabbfbadb463","toSide":"left"},
+		{"id":"58593309624697eb","fromNode":"a19833665e76b07c","fromSide":"bottom","toNode":"3d62cabbfbadb463","toSide":"top","label":"新质生产力"},
+		{"id":"20a1d0621b90c1be","fromNode":"65b0ffd10b1bf2b7","fromSide":"bottom","toNode":"308ababf79347f23","toSide":"top"}
+	]
+}

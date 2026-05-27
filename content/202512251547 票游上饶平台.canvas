@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"97de826658147623","type":"group","x":-200,"y":-80,"width":290,"height":380,"color":"2","label":"业务板块"},
+		{"id":"0f2a9c34f193cecf","type":"group","x":90,"y":440,"width":290,"height":286,"color":"3","label":"其他平台"},
+		{"id":"80c9a4ca0c670d45","type":"text","text":"票游上饶平台","x":-133,"y":-250,"width":156,"height":60,"color":"6"},
+		{"id":"ab48f15c9eadef44","type":"text","text":"消费券发放","x":-180,"y":-48,"width":250,"height":60},
+		{"id":"b2bcb2a5fce1ae76","type":"text","text":"赛事、演唱会售票","x":-180,"y":30,"width":250,"height":60},
+		{"id":"56a72a3e4f2e524b","type":"text","text":"融合消费","x":-180,"y":120,"width":250,"height":60},
+		{"id":"1a0ce7c119addf17","type":"text","text":"导流","x":-180,"y":200,"width":250,"height":60},
+		{"id":"de019c9f1244d49c","type":"text","text":"技术供应商","x":-500,"y":-390,"width":140,"height":60},
+		{"id":"acadb1e99b781756","type":"text","text":"赣数科技","x":-500,"y":-250,"width":140,"height":60,"color":"5"},
+		{"id":"cbb7e72b50df290c","type":"text","text":"市农文旅集团","x":200,"y":-250,"width":250,"height":60,"color":"4"},
+		{"id":"abdfcce59ec28696","type":"text","text":"- 商业-水南街、东乐谷……\n- 旅游-景点、酒店（龙潭湖）……\n- 运动-运动场馆……\n- 赛事-赣超……\n- 演艺-演唱会、音乐节……\n- 电商-农特产、文创……","x":190,"y":-18,"width":270,"height":248,"color":"3"},
+		{"id":"932c61efa1e5947a","type":"text","text":"上饶一码通","x":110,"y":460,"width":250,"height":60},
+		{"id":"16dd455696ef6721","type":"text","text":"佟掌柜","x":110,"y":548,"width":250,"height":60},
+		{"id":"09ccde75d1b775e0","type":"text","text":"饶城好邻居（家政）","x":110,"y":636,"width":250,"height":60},
+		{"id":"052916815b3caa25","type":"text","text":"传媒集团","x":460,"y":460,"width":250,"height":60},
+		{"id":"9b4820f3071dc706","type":"text","text":"上饶银行","x":460,"y":548,"width":250,"height":60},
+		{"id":"57bada7d94f86976","type":"text","text":"家政协会","x":460,"y":636,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"76be3d8dd3832edd","fromNode":"9b4820f3071dc706","fromSide":"left","toNode":"16dd455696ef6721","toSide":"right"},
+		{"id":"a893d79aad7fffdf","fromNode":"de019c9f1244d49c","fromSide":"bottom","toNode":"acadb1e99b781756","toSide":"top"},
+		{"id":"85d3d7c346d8add8","fromNode":"acadb1e99b781756","fromSide":"right","toNode":"80c9a4ca0c670d45","toSide":"left","label":"技术服务"},
+		{"id":"f2b06b51ac5ff44f","fromNode":"80c9a4ca0c670d45","fromSide":"bottom","toNode":"97de826658147623","toSide":"top"},
+		{"id":"4955a0ae745080b6","fromNode":"97de826658147623","fromSide":"left","toNode":"acadb1e99b781756","toSide":"bottom","label":"技术服务费"},
+		{"id":"8dfab2fe6507937a","fromNode":"57bada7d94f86976","fromSide":"left","toNode":"09ccde75d1b775e0","toSide":"right"},
+		{"id":"60c9dd466fd16e02","fromNode":"cbb7e72b50df290c","fromSide":"left","toNode":"80c9a4ca0c670d45","toSide":"right","label":"运营主体"},
+		{"id":"92bcce6b07275f2d","fromNode":"052916815b3caa25","fromSide":"left","toNode":"932c61efa1e5947a","toSide":"right"},
+		{"id":"9becca6e99b5c236","fromNode":"56a72a3e4f2e524b","fromSide":"right","toNode":"abdfcce59ec28696","toSide":"left"},
+		{"id":"6dcd38a680ba4ea5","fromNode":"cbb7e72b50df290c","fromSide":"bottom","toNode":"abdfcce59ec28696","toSide":"top","label":"运营方"},
+		{"id":"fcb85d759a5387ab","fromNode":"0f2a9c34f193cecf","fromSide":"left","toNode":"1a0ce7c119addf17","toSide":"bottom","label":"通道服务费"},
+		{"id":"2ca4a397a3db1b48","fromNode":"1a0ce7c119addf17","fromSide":"right","toNode":"0f2a9c34f193cecf","toSide":"top","label":"通道服务"}
+	]
+}

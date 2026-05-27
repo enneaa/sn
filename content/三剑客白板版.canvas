@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"a0880a642f5b6c87","type":"text","text":"萝莉","x":-126,"y":-198,"width":86,"height":58,"color":"3"},
+		{"id":"201db5b14ee1884b","type":"text","text":"御姐","x":220,"y":-200,"width":86,"height":60,"color":"6"},
+		{"id":"cb3bd77fdbf24b92","type":"text","text":"美艳","x":40,"y":-360,"width":86,"height":60,"color":"1"},
+		{"id":"15fe0597428b641c","type":"text","text":"清纯","x":40,"y":-40,"width":86,"height":60,"color":"4"},
+		{"id":"f88fd01b0a13e40e","type":"text","text":"小鱼","x":-20,"y":-140,"width":86,"height":60},
+		{"id":"0f688c0cd211f633","type":"text","text":"赖总","x":-20,"y":-258,"width":86,"height":60},
+		{"id":"aeed3d1cb4b1991d","type":"text","text":"主席","x":100,"y":-260,"width":86,"height":60},
+		{"id":"c706ebe8b00eef07","type":"text","text":"小明","x":100,"y":-140,"width":86,"height":60}
+	],
+	"edges":[
+		{"id":"bce46c1e764487d1","fromNode":"a0880a642f5b6c87","fromSide":"right","toNode":"201db5b14ee1884b","toSide":"left"},
+		{"id":"c5d306df485ea1a5","fromNode":"15fe0597428b641c","fromSide":"top","toNode":"cb3bd77fdbf24b92","toSide":"bottom"}
+	]
+}
