@@ -44,7 +44,7 @@ plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
     options:
-      defaultDateType: modified
+      defaultDateType: created
       priority:
         - frontmatter
         - git
@@ -61,8 +61,19 @@ plugins:
   - source: github:quartz-community/obsidian-flavored-markdown
     enabled: true
     options:
+      comments: true
+      highlight: true
+      wikilinks: true
+      callouts: true
+      mermaid: true
+      parseTags: true
+      parseBlockReferences: true
       enableInHtmlEmbed: false
+      enableYouTubeEmbed: true
+      enableTweetEmbed: true
+      enableVideoEmbed: true
       enableCheckbox: true
+      enableObsidianUri: true
     order: 30
   - source: github:quartz-community/github-flavored-markdown
     enabled: true
@@ -73,7 +84,10 @@ plugins:
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
-      markdownLinkResolution: shortest
+      markdownLinkResolution: relative
+      lazyLoad: true
+      openLinksInNewTab: true
+      prettyLinks: true
     order: 60
   - source: github:quartz-community/description
     enabled: true
